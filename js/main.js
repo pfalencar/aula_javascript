@@ -1,3 +1,30 @@
+
+var validar = 0;
+function validarIdade(idade) {
+    var validar;
+    if (idade >= 18) {
+        validar = true;
+    } else {
+        validar = false;
+    }  
+    return validar;
+}
+
+var idade = prompt("Qual sua idade?:")
+console.log(validarIdade(idade));
+console.log(validar);
+
+
+/*
+function soma (n1, n2){
+    return n1+n2;
+}
+alert(soma(parseInt(prompt("Insira o primeiro número")), 
+           parseInt(prompt("Insira o segundo número")))
+    );
+*/
+
+/*
 var d = new Date();
 alert(d.getHours());
 alert(d.getMinutes());
@@ -5,7 +32,7 @@ alert(d.getSeconds());
 alert(d.getDay());
 alert(d.getMonth() + 1);
 alert(d.getFullYear());
-
+*/
 
 /*
 var count;
