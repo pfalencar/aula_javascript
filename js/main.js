@@ -1,4 +1,31 @@
+function clicar(){
+    console.log(document.getElementById("agradecimento"));
+    document.getElementById("agradecimento").innerHTML = "<b>Hello!</b>"
+}
 
+function redirecionar() {
+    window.open("https://www.google.com");
+    //window.location.href = "https://www.uol.com.br";
+}
+
+function trocar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Troquei!";
+    elemento.innerHTML = "Troqueii!!";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!";
+    elemento.innerHTML = "Passe o mouse aqui!";
+}
+
+function load() {
+    alert("Página carregada!");
+}
+
+function functionChange(elemento) {
+    console.log(elemento.value);
+}
+/*
 var validar = 0;
 function validarIdade(idade) {
     var validar;
@@ -13,7 +40,7 @@ function validarIdade(idade) {
 var idade = prompt("Qual sua idade?:")
 console.log(validarIdade(idade));
 console.log(validar);
-
+*/
 
 /*
 function soma (n1, n2){
